@@ -28,6 +28,7 @@ import (
 // @host ws-bargana2024-abecd99cf108.herokuapp.com
 // @BasePath /
 // @schemes https http
+
 func main() {
 	site := fiber.New(config.Iteung)
 	site.Use(cors.New(config.Cors))
