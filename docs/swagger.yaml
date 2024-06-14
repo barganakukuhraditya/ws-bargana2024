@@ -85,4 +85,7 @@ paths:
       summary: Get All Data Presensi.
       tags:
       - Presensi
+schemes:
+- https
+- http
 swagger: "2.0"
